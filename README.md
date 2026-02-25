@@ -10,4 +10,4 @@ Ce dépôt GitHub a pour but de :
 GitHub me permet aussi de garder une trace datée de mes recherches et de montrer mon évolution dans le domaine.
 ## Licence: Le contenu de ce dépôt est distribué sous licence **CC BY 4.0**. 
 Vous êtes libre de le partager ou de le réutiliser, à condition de me citer.
-## Contact Si vous souhaitez discuter, poser des questions ou proposer des idées, vous pouvez ouvrir une *issue* sur ce dépôt, ou me contacter à ladresse mail suivante: **lemperssasha@gmail.com**
+## Contact: Si vous souhaitez discuter, poser des questions ou proposer des idées, vous pouvez ouvrir une *issue* sur ce dépôt, ou me contacter à ladresse mail suivante: **lemperssasha@gmail.com**
