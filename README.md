@@ -1,5 +1,6 @@
 Bonjour ! Je m'appelle **Sasha Lempers**, j'ai **15 ans**, et je m'intéresse à la physique, aux modèles mathématiques et aux phénomènes non locaux dans les milieux granulaires.
-Ce dépôt GitHub a pour but de : - rendre public mon manuscrit scientifique rédigé en 2026 ; 
+Ce dépôt GitHub a pour but de :
+- rendre public mon manuscrit scientifique rédigé en 2026 ; 
 - établir une antériorité claire et datée de mon travail ;
 - documenter mes apprentissages et mes progrès ;
 -  partager mes idées avec toute personne intéressée par la physique des milieux granulaires.
