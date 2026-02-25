@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18775207.svg)](https://doi.org/10.5281/zenodo.18775207)
 Bonjour ! Je m'appelle **Sasha Lempers**, j'ai **15 ans**, et je m'intéresse à la physique, aux modèles mathématiques et aux phénomènes non locaux dans les milieux granulaires.
 Ce dépôt GitHub a pour but de :
 - rendre public mon manuscrit scientifique rédigé en 2026 ; 
