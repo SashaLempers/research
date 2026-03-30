@@ -25,7 +25,7 @@ This is ongoing, independent research. Feedback and insights from the academic c
 The contents of this repository are distributed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
 
 ## About the Author
-My name is **Sasha Lempers** (born in 2011). I am a 15-year-old independent researcher passionate about utilizing advanced algebraic tools and physics to approach complex theoretical problems. This repository functions as a public ledger to timestamp my self-taught learning curve and research output.
+My name is **Sasha Lempers** (born in 2010). I am a 15-year-old independent researcher passionate about utilizing advanced algebraic tools and physics to approach complex theoretical problems. This repository functions as a public ledger to timestamp my self-taught learning curve and research output.
 
 ## Contact
 Feel free to open an issue on this repository or reach out via email: **lemperssasha@gmail.com**
