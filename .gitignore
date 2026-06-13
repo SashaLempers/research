@@ -46,3 +46,7 @@ note_sl9_invariants_final_all_in_one*.pdf
 *.fls
 *.fdb_latexmk
 *.synctex.gz
+# Local research archives and paper libraries (not source)
+archives/
+good_archive/
+research_papers/
