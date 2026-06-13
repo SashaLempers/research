@@ -1,0 +1,36 @@
+N = 9
+INNER = 3
+d = 3
+k = 1
+source target weight = (1, 1, 1, 1, 1, 1, 1, 1, 1)
+source weight dim = 280
+E_0,1: target weight (2, 0, 1, 1, 1, 1, 1, 1, 1), target dim = 175
+E_1,2: target weight (1, 2, 0, 1, 1, 1, 1, 1, 1), target dim = 175
+E_2,3: target weight (1, 1, 2, 0, 1, 1, 1, 1, 1), target dim = 175
+E_3,4: target weight (1, 1, 1, 2, 0, 1, 1, 1, 1), target dim = 175
+E_4,5: target weight (1, 1, 1, 1, 2, 0, 1, 1, 1), target dim = 175
+E_5,6: target weight (1, 1, 1, 1, 1, 2, 0, 1, 1), target dim = 175
+E_6,7: target weight (1, 1, 1, 1, 1, 1, 2, 0, 1), target dim = 175
+E_7,8: target weight (1, 1, 1, 1, 1, 1, 1, 2, 0), target dim = 175
+Building E_0,1 ...
+  cumulative nnz = 280
+Building E_1,2 ...
+  cumulative nnz = 560
+Building E_2,3 ...
+  cumulative nnz = 840
+Building E_3,4 ...
+  cumulative nnz = 1120
+Building E_4,5 ...
+  cumulative nnz = 1400
+Building E_5,6 ...
+  cumulative nnz = 1680
+Building E_6,7 ...
+  cumulative nnz = 1960
+Building E_7,8 ...
+  cumulative nnz = 2240
+rows = 1400
+cols = 280
+nnz = 2240
+wrote C:\Users\sashack\gpt_or_codex_code\2026-06-13\output\invariant_patch\certificates\hw_d3_sparse.txt
+elapsed seconds = 0.047
+exit_code = 0

@@ -1,0 +1,48 @@
+# Generated outputs and local work products
+output/
+outputs/
+logs/
+*.tmp
+*.log
+
+# Large/generated sparse data and matrices
+sparse*.txt
+*sparse*.txt
+hw_d3_sparse.txt
+*.mtx
+*.matrix
+
+# Credentials and secrets
+.env
+.env.*
+credentials/
+secrets/
+*.pem
+*.key
+
+# Caches
+cache/
+caches/
+.cache/
+__pycache__/
+*.pyc
+*.pyo
+
+# Manuscript / unpublished article artifacts
+Lempers_SRMT_JAMS*.pdf
+Lempers_SRMT_JAMS*.tex
+Lempers_SRMT_JAMS*.tex*
+*JAMS*.pdf
+*JAMS*.tex
+*JAMS*.tex*
+*_patched.pdf
+note_sl9_invariants_final_all_in_one*.pdf
+*.bak_*
+
+# LaTeX build products
+*.aux
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz

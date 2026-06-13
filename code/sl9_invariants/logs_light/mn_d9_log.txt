@@ -1,0 +1,12 @@
+D = 9
+N = 9
+INNER = 3
+target partition/weight = (3, 3, 3, 3, 3, 3, 3, 3, 3)
+total degree = 27
+support p-coeff size = 822
+scalar <h_9[h_3], s_(3, 3, 3, 3, 3, 3, 3, 3, 3)> = 0
+partitions(27) = 3010
+orthogonality check for chi^(3, 3, 3, 3, 3, 3, 3, 3, 3) = 1
+RESULT claimed-comp exact-MN = 0
+elapsed seconds = 0.303
+exit_code = 0

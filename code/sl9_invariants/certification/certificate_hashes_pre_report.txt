@@ -1,0 +1,5 @@
+052EA10AEB948DBD02F306AE98269D4CD75967F91EE6C4C2DE846B7E36032CF7  C:\Users\sashack\gpt_or_codex_code\2026-06-13\output\invariant_patch\certificates\hw_d3_matrix_sha256.txt
+2EC77E564E959B6DC9ACA294D4EF5725150A0DE43B6FBB72DA015754450A65A8  C:\Users\sashack\gpt_or_codex_code\2026-06-13\output\invariant_patch\certificates\hw_d3_sparse.txt
+532048D627DF14E52D32A5B2F1035F2881915BDF3F091621673DAA108052D6AE  C:\Users\sashack\gpt_or_codex_code\2026-06-13\output\invariant_patch\certificates\input_hashes_initial.txt
+505D51150CC87A680FCD7D2C92E65BA7897DD26914FEC60E84C9AE853BB7CAB8  C:\Users\sashack\gpt_or_codex_code\2026-06-13\output\invariant_patch\certificates\log_hashes.txt
+83364BF497D5528B1267C52D20B8DEAF8DF19B1BCB0EEF107E1C9BB8C461C951  C:\Users\sashack\gpt_or_codex_code\2026-06-13\output\invariant_patch\certificates\script_hashes.txt

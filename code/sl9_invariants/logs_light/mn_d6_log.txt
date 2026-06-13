@@ -1,0 +1,12 @@
+D = 6
+N = 9
+INNER = 3
+target partition/weight = (2, 2, 2, 2, 2, 2, 2, 2, 2)
+total degree = 18
+support p-coeff size = 155
+scalar <h_6[h_3], s_(2, 2, 2, 2, 2, 2, 2, 2, 2)> = 0
+partitions(18) = 385
+orthogonality check for chi^(2, 2, 2, 2, 2, 2, 2, 2, 2) = 1
+RESULT claimed-comp exact-MN = 0
+elapsed seconds = 0.030
+exit_code = 0

@@ -1,0 +1,6 @@
+2EE2CC1771ADE1AEA468E84D89D41AB2F5F2805A82CA6C36249ECAE4AD404765  C:\Users\sashack\gpt_or_codex_code\2026-06-13\output\invariant_patch\scripts\compute_rank.m2
+4E5D4AA5DD2A3454F9313FA866B7B9444D605891D0630366F178CA25AB66FE0B  C:\Users\sashack\gpt_or_codex_code\2026-06-13\output\invariant_patch\scripts\equivalence_pleth_hw.tex
+C697B5ADAD758B23E321AA1DD801166B979A86E47CF3C0106EB60B1218F1DF1B  C:\Users\sashack\gpt_or_codex_code\2026-06-13\output\invariant_patch\scripts\generate_sparse_hw_stream.py
+4220D23C763CF34254BBE69B5C3B181B0E50F819B96DBD4AB6CDC0FF9DD195F9  C:\Users\sashack\gpt_or_codex_code\2026-06-13\output\invariant_patch\scripts\plethysm_mn_d3.py
+F932926CDF08093597A8101FED096A13254A32915178F0EB93D076D222FFA9C3  C:\Users\sashack\gpt_or_codex_code\2026-06-13\output\invariant_patch\scripts\plethysm_mn_d6.py
+B8BBE4A5EA9ABA8021BD6562A262DE418CEEE9FCA43362F2F4F0D6BF5FB217CF  C:\Users\sashack\gpt_or_codex_code\2026-06-13\output\invariant_patch\scripts\plethysm_mn_d9.py

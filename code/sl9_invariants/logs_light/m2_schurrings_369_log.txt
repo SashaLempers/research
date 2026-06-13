@@ -1,0 +1,12 @@
+d = 3
+target = {1, 1, 1, 1, 1, 1, 1, 1, 1}
+scalar = 0
+d = 6
+target = {2, 2, 2, 2, 2, 2, 2, 2, 2}
+scalar = 0
+d = 9
+target = {3, 3, 3, 3, 3, 3, 3, 3, 3}
+scalar = 0
+RESULT M2 SchurRings exact plethysm d={3,6,9} = 0
+container = pensive_einstein; image = srmt-research:latest; magical_tu was not exec-capable because OpenStdin=false and its command exits
+exit_code = 0

@@ -1,0 +1,411 @@
+\documentclass[11pt]{article}
+
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}{Proposition}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+\newtheorem{remark}{Remark}
+
+\newcommand{\C}{\mathbb C}
+\newcommand{\SL}{\mathrm{SL}}
+\newcommand{\GL}{\mathrm{GL}}
+\newcommand{\Sym}{\operatorname{Sym}}
+\newcommand{\Schur}{\mathbb S}
+\newcommand{\ch}{\operatorname{ch}}
+
+\begin{document}
+
+\title{Equivalence Between the Plethystic Coefficient and the \(SL_9\)-Invariant Dimension}
+\author{}
+\date{}
+\maketitle
+
+\begin{center}
+\textbf{Status: Proved-Alg for the equivalence theorem}
+\end{center}
+
+Let \(V=\C^9\), with its standard action of \(GL(V)\simeq GL_9(\C)\), and set
+\[
+    M_d=\Sym^d(\Sym^3 V).
+\]
+This note proves that the \(SL_9\)-invariant dimension of \(M_d\) is exactly the
+rectangular Schur coefficient
+\[
+    \big\langle h_d[h_3],s_{(k^9)}\big\rangle
+\]
+when \(3d=9k\), and is zero otherwise. The proof is independent of any
+highest-weight rank computation.
+
+All representations are finite-dimensional complex algebraic representations.
+All Schur functors are polynomial \(GL_9\)-representations.
+
+\section*{1. The rectangular summand and the absence of a hidden factor}
+
+We first prove the point on which the \(GL_9\)-to-\(SL_9\) passage rests.
+
+\begin{lemma}[Rectangular Schur functors]
+Let \(V=\C^9\). For every \(k\geq 0\),
+\[
+    \Schur_{(k^9)}V \simeq (\det V)^k
+\]
+as \(GL_9\)-representations. In particular, \(\Schur_{(k^9)}V\) is
+one-dimensional.
+\end{lemma}
+
+\begin{proof}
+For a diagonal matrix
+\[
+    t=\operatorname{diag}(t_1,\ldots,t_9)\in GL_9,
+\]
+the character of the one-dimensional representation \((\det V)^k\) is
+\[
+    (\det t)^k=(t_1t_2\cdots t_9)^k=t_1^k t_2^k\cdots t_9^k.
+\]
+Thus \((\det V)^k\) has \(GL_9\)-weight \((k,k,\ldots,k)=(k^9)\).
+Since it is one-dimensional, this weight is also its highest weight.
+
+By the highest-weight classification of irreducible polynomial \(GL_9\)-modules,
+there is a unique irreducible polynomial \(GL_9\)-module with dominant highest
+weight \((k^9)\). That module is, by definition, \(\Schur_{(k^9)}V\). Hence
+\[
+    \Schur_{(k^9)}V\simeq(\det V)^k.
+\]
+The right-hand side is one-dimensional, so the same is true of
+\(\Schur_{(k^9)}V\).
+\end{proof}
+
+\begin{lemma}[Fixed vectors in an irreducible polynomial \(GL_9\)-module]
+Let \(\lambda=(\lambda_1,\ldots,\lambda_9)\) be a partition, with trailing
+zeroes allowed. Then
+\[
+    \dim(\Schur_\lambda V)^{SL_9}
+    =
+    \begin{cases}
+    1, & \lambda=(k^9)\text{ for some }k\geq 0,\\
+    0, & \text{otherwise.}
+    \end{cases}
+\]
+\end{lemma}
+
+\begin{proof}
+The restriction of a polynomial irreducible \(GL_9\)-module
+\(\Schur_\lambda V\) to \(SL_9\) is the irreducible \(SL_9\)-module with highest
+weight represented in simple-root coordinates by
+\[
+    (\lambda_1-\lambda_2,\lambda_2-\lambda_3,\ldots,\lambda_8-\lambda_9).
+\]
+Equivalently, one may subtract the central determinant twist:
+\[
+    \Schur_\lambda V
+    \simeq
+    (\det V)^{\lambda_9}\otimes
+    \Schur_{\lambda-(\lambda_9^9)}V,
+\]
+and the determinant factor is trivial on \(SL_9\). The remaining highest weight
+for \(SL_9\) is exactly the list of adjacent differences above.
+
+The trivial \(SL_9\)-representation has highest weight \(0\). Hence
+\(\Schur_\lambda V\) can have an \(SL_9\)-fixed vector if and only if the
+restricted highest weight is zero:
+\[
+    \lambda_1-\lambda_2=\lambda_2-\lambda_3=\cdots=\lambda_8-\lambda_9=0.
+\]
+This is equivalent to
+\[
+    \lambda_1=\lambda_2=\cdots=\lambda_9,
+\]
+so \(\lambda=(k^9)\).
+
+If \(\lambda=(k^9)\), the previous lemma gives
+\[
+    \Schur_{(k^9)}V\simeq(\det V)^k.
+\]
+For every \(g\in SL_9\), \(\det(g)=1\), so \((\det g)^k=1\). Thus this
+one-dimensional representation is trivial on \(SL_9\), and its invariant
+subspace has dimension \(1\).
+
+If \(\lambda\) is not rectangular, its restricted \(SL_9\)-highest weight is
+nonzero. The restricted module is then a nontrivial irreducible \(SL_9\)-module,
+so it contains no copy of the trivial representation and has no nonzero
+\(SL_9\)-fixed vector. Therefore
+\[
+    (\Schur_\lambda V)^{SL_9}=0
+\]
+in the non-rectangular case.
+\end{proof}
+
+\begin{remark}[No hidden multiplicity factor]
+If a polynomial \(GL_9\)-module decomposes as
+\[
+    M\simeq\bigoplus_\lambda m_\lambda\,\Schur_\lambda V,
+\]
+then exactness of taking invariants over a reductive group and the preceding
+lemma give
+\[
+    \dim M^{SL_9}
+    =
+    \sum_\lambda m_\lambda\,\dim(\Schur_\lambda V)^{SL_9}.
+\]
+Thus each copy of the rectangular summand
+\(\Schur_{(k^9)}V\simeq(\det V)^k\) contributes exactly one invariant line, and
+every non-rectangular summand contributes zero. Therefore
+\[
+    \dim M^{SL_9}=m_{(k^9)}
+\]
+whenever the decomposition contains a rectangular summand of total degree
+\(9k\). There is no additional factor.
+\end{remark}
+
+\section*{2. Character and plethysm proof}
+
+\begin{proposition}[Plethystic character]
+The \(GL_9\)-character of
+\[
+    M_d=\Sym^d(\Sym^3 V)
+\]
+is
+\[
+    \ch(M_d)=h_d[h_3].
+\]
+If
+\[
+    h_d[h_3]=\sum_{\lambda\vdash 3d} a_\lambda s_\lambda,
+\]
+then
+\[
+    a_\lambda=\big\langle h_d[h_3],s_\lambda\big\rangle
+\]
+is the multiplicity of \(\Schur_\lambda V\) in \(M_d\), for every partition
+\(\lambda\) of \(3d\) with at most \(9\) parts.
+\end{proposition}
+
+\begin{proof}
+The character of \(\Sym^3V\) is \(h_3\). Applying the \(d\)-th symmetric power
+to a representation corresponds, at the level of symmetric functions, to
+plethysm by \(h_d\). Therefore
+\[
+    \ch\bigl(\Sym^d(\Sym^3V)\bigr)=h_d[h_3].
+\]
+The Schur functions \(s_\lambda\) are the irreducible polynomial characters of
+\(GL_9\), with the convention that \(s_\lambda\) vanishes on \(9\) variables
+when \(\ell(\lambda)>9\). Hence the Schur expansion
+\[
+    h_d[h_3]=\sum_{\lambda\vdash 3d} a_\lambda s_\lambda
+\]
+is exactly the isotypic decomposition
+\[
+    M_d\simeq
+    \bigoplus_{\lambda\vdash 3d,\ \ell(\lambda)\leq 9}
+    a_\lambda\,\Schur_\lambda V.
+\]
+Since the Schur functions are orthonormal for the Hall inner product,
+\[
+    a_\lambda=\big\langle h_d[h_3],s_\lambda\big\rangle.
+\]
+\end{proof}
+
+\begin{theorem}[Invariant dimension equals the rectangular plethystic coefficient]
+Let \(V=\C^9\) and \(M_d=\Sym^d(\Sym^3V)\). If \(3d\) is not divisible by \(9\),
+then
+\[
+    \dim M_d^{SL_9}=0.
+\]
+If \(3d=9k\), then
+\[
+    \boxed{
+    \dim M_d^{SL_9}
+    =
+    \big\langle h_d[h_3],s_{(k^9)}\big\rangle.
+    }
+\]
+\end{theorem}
+
+\begin{proof}
+By the plethystic character proposition,
+\[
+    M_d\simeq
+    \bigoplus_{\lambda\vdash 3d,\ \ell(\lambda)\leq 9}
+    a_\lambda\,\Schur_\lambda V,
+    \qquad
+    a_\lambda=\big\langle h_d[h_3],s_\lambda\big\rangle.
+\]
+Taking \(SL_9\)-invariants gives
+\[
+    M_d^{SL_9}
+    \simeq
+    \bigoplus_{\lambda\vdash 3d,\ \ell(\lambda)\leq 9}
+    a_\lambda\,(\Schur_\lambda V)^{SL_9}.
+\]
+By the fixed-vector lemma, the only Schur summands contributing
+\(SL_9\)-fixed vectors are the rectangular summands
+\[
+    \lambda=(k,k,\ldots,k)=(k^9).
+\]
+Such a partition has size \(9k\), while every Schur summand in \(M_d\) has size
+\(3d\). Therefore a rectangular contributor can occur only if
+\[
+    3d=9k.
+\]
+If no such integer \(k\) exists, no irreducible summand contributes any
+\(SL_9\)-fixed vector, so \(\dim M_d^{SL_9}=0\).
+
+Assume now that \(3d=9k\). The only possible contributing summand is
+\(\Schur_{(k^9)}V\). By the rectangular lemma,
+\[
+    \Schur_{(k^9)}V\simeq(\det V)^k,
+\]
+which is one-dimensional and trivial on \(SL_9\). Therefore each copy of
+\(\Schur_{(k^9)}V\) contributes exactly one invariant vector, and every
+non-rectangular summand contributes none. Hence
+\[
+    \dim M_d^{SL_9}
+    =
+    a_{(k^9)}
+    =
+    \big\langle h_d[h_3],s_{(k^9)}\big\rangle.
+\]
+This proves the claimed equality with no extra multiplicative factor.
+\end{proof}
+
+\section*{3. Highest-weight vector formulation}
+
+The preceding theorem identifies the invariant dimension with the plethystic
+coefficient. We now record the equivalent highest-weight kernel formulation,
+which computes the same multiplicity when such a rank computation is feasible.
+
+Let \(T\subset GL_9\) be the diagonal torus and choose the standard Borel. Let
+\(\varepsilon_i\) denote the \(i\)-th coordinate weight. For a \(GL_9\)-module
+\(M\), write \(M_\lambda\) for the \(T\)-weight space of weight \(\lambda\), and
+let
+\[
+    E_{i,i+1},\qquad i=1,\ldots,8,
+\]
+be the simple positive-root operators.
+
+\begin{proposition}[Highest-weight kernel]
+Let \(M\) be a finite-dimensional polynomial \(GL_9\)-module and let
+\(\lambda\) be a dominant polynomial weight. The multiplicity of
+\(\Schur_\lambda V\) in \(M\) is
+\[
+    \operatorname{mult}_{\Schur_\lambda V}(M)
+    =
+    \dim
+    \bigcap_{i=1}^{8}
+    \ker\left(
+        E_{i,i+1}:M_\lambda\to M_{\lambda+\varepsilon_i-\varepsilon_{i+1}}
+    \right).
+\]
+\end{proposition}
+
+\begin{proof}
+The multiplicity of \(\Schur_\lambda V\) in \(M\) equals the dimension of the
+space of highest-weight vectors of weight \(\lambda\):
+\[
+    \operatorname{mult}_{\Schur_\lambda V}(M)
+    =
+    \dim\{v\in M_\lambda:\mathfrak n_+v=0\},
+\]
+where \(\mathfrak n_+\) is the nilpotent Lie algebra of the chosen positive
+Borel.
+
+The Lie algebra \(\mathfrak n_+\) is generated by the simple positive-root
+operators
+\[
+    E_{1,2},E_{2,3},\ldots,E_{8,9}.
+\]
+Therefore a vector \(v\in M_\lambda\) is killed by all of \(\mathfrak n_+\) if
+and only if it is killed by each simple raising operator \(E_{i,i+1}\). Hence
+\[
+    \{v\in M_\lambda:\mathfrak n_+v=0\}
+    =
+    \bigcap_{i=1}^{8}
+    \ker\left(
+        E_{i,i+1}:M_\lambda\to
+        M_{\lambda+\varepsilon_i-\varepsilon_{i+1}}
+    \right).
+\]
+This proves the formula.
+\end{proof}
+
+\begin{corollary}[Plethysm, highest weights, and invariants agree]
+Let \(M_d=\Sym^d(\Sym^3V)\). If \(3d=9k\), then
+\[
+    \dim M_d^{SL_9}
+    =
+    \big\langle h_d[h_3],s_{(k^9)}\big\rangle
+    =
+    \dim
+    \bigcap_{i=1}^{8}
+    \ker\left(
+        E_{i,i+1}:(M_d)_{(k^9)}
+        \to
+        (M_d)_{(k^9)+\varepsilon_i-\varepsilon_{i+1}}
+    \right).
+\]
+If \(3d\) is not divisible by \(9\), then
+\[
+    \dim M_d^{SL_9}=0.
+\]
+\end{corollary}
+
+\begin{proof}
+The first equality is the invariant-dimension theorem. The second equality
+follows from the highest-weight kernel proposition applied to
+\(M=M_d\) and \(\lambda=(k^9)\), because the multiplicity of
+\(\Schur_{(k^9)}V\) is the Schur coefficient
+\[
+    \big\langle h_d[h_3],s_{(k^9)}\big\rangle.
+\]
+The zero statement in the non-divisible case follows from the same theorem.
+\end{proof}
+
+\section*{4. Consequence for the certified degrees}
+
+The theorem above is purely representation-theoretic. It does not use any
+numerical vanishing of a coefficient in its proof.
+
+For \(d=3,6,9\), the possible rectangular weights are respectively
+\[
+    (1^9),\qquad (2^9),\qquad (3^9).
+\]
+Therefore the theorem gives
+\[
+    \dim \Sym^3(\Sym^3\C^9)^{SL_9}
+    =
+    \big\langle h_3[h_3],s_{(1^9)}\big\rangle,
+\]
+\[
+    \dim \Sym^6(\Sym^3\C^9)^{SL_9}
+    =
+    \big\langle h_6[h_3],s_{(2^9)}\big\rangle,
+\]
+and
+\[
+    \dim \Sym^9(\Sym^3\C^9)^{SL_9}
+    =
+    \big\langle h_9[h_3],s_{(3^9)}\big\rangle.
+\]
+Combining this Proved-Alg equivalence with exact independent character
+computations of these three coefficients gives
+\[
+    \dim \Sym^d(\Sym^3\C^9)^{SL_9}=0
+    \qquad
+    \text{for }d\in\{3,6,9\}.
+\]
+
+\begin{remark}[Separation of proof and computation]
+The equality
+\[
+    \dim \Sym^d(\Sym^3\C^9)^{SL_9}
+    =
+    \big\langle h_d[h_3],s_{(k^9)}\big\rangle
+\]
+is Proved-Alg. The numerical vanishing of the coefficients in the listed
+degrees is a separate exact character computation. A direct highest-weight rank
+computation is not required for the proof of the equality; when feasible, it is
+only an independent way to compute the same multiplicity.
+\end{remark}
+
+\end{document}

@@ -1,0 +1,6 @@
+certification_date = 2026-06-13
+host_python = Python 3.12.0
+pensive_einstein = srmt-research:latest sha256:0ccaa381bf66e8e2b61674761e7e8cd6d14ab63413c5905e25a826b7f70b864c running
+m2 = 1.19.1
+sage = SageMath version 10.8, Release Date: 2025-12-18
+magical_tu = ["sage"] OpenStdin=false status=exited exit=0
