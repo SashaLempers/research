@@ -1,0 +1,457 @@
+{
+  "degrees": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "elapsed_seconds": 0.4247920513153076,
+  "engine": "SageMath",
+  "field": "QQ",
+  "forbidden_degree_12_expansion": "not executed",
+  "limitations": "Single exact plethystic engine. Per AGENTS.md this is not qq-cert by itself.",
+  "method": "direct Schur expansion s(h[d].plethysm(h[3])) for d=2,3,4,5",
+  "results": [
+    {
+      "d": 2,
+      "elapsed_seconds": 0.09364914894104004,
+      "rectangular_coefficient": {
+        "applicable": false,
+        "coefficient": null,
+        "reason": "3*d is not divisible by 9, so no rectangular (k^9) SL9-invariant target exists.",
+        "target": null
+      },
+      "schur_expansion_terms": [
+        {
+          "coefficient": "1",
+          "partition": [
+            6
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            4,
+            2
+          ]
+        }
+      ],
+      "support_size": 2,
+      "total_degree": 6
+    },
+    {
+      "d": 3,
+      "elapsed_seconds": 0.008535385131835938,
+      "rectangular_coefficient": {
+        "applicable": true,
+        "coefficient": "0",
+        "reason": "3*d = 9*k, so Theorem 6.1 reduces the SL9 invariant multiplicity to this rectangular coefficient.",
+        "target": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "schur_expansion_terms": [
+        {
+          "coefficient": "1",
+          "partition": [
+            9
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            7,
+            2
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            6,
+            3
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            5,
+            2,
+            2
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            4,
+            4,
+            1
+          ]
+        }
+      ],
+      "support_size": 5,
+      "total_degree": 9
+    },
+    {
+      "d": 4,
+      "elapsed_seconds": 0.03569340705871582,
+      "rectangular_coefficient": {
+        "applicable": false,
+        "coefficient": null,
+        "reason": "3*d is not divisible by 9, so no rectangular (k^9) SL9-invariant target exists.",
+        "target": null
+      },
+      "schur_expansion_terms": [
+        {
+          "coefficient": "1",
+          "partition": [
+            12
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            10,
+            2
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            9,
+            3
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            8,
+            4
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            8,
+            2,
+            2
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            7,
+            4,
+            1
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            7,
+            3,
+            2
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            6,
+            6
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            6,
+            4,
+            2
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            6,
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            5,
+            4,
+            2,
+            1
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            4,
+            4,
+            4
+          ]
+        }
+      ],
+      "support_size": 12,
+      "total_degree": 12
+    },
+    {
+      "d": 5,
+      "elapsed_seconds": 0.14889812469482422,
+      "rectangular_coefficient": {
+        "applicable": false,
+        "coefficient": null,
+        "reason": "3*d is not divisible by 9, so no rectangular (k^9) SL9-invariant target exists.",
+        "target": null
+      },
+      "schur_expansion_terms": [
+        {
+          "coefficient": "1",
+          "partition": [
+            15
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            13,
+            2
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            12,
+            3
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            11,
+            4
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            11,
+            2,
+            2
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            10,
+            5
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            10,
+            4,
+            1
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            10,
+            3,
+            2
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            9,
+            6
+          ]
+        },
+        {
+          "coefficient": "2",
+          "partition": [
+            9,
+            4,
+            2
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            9,
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            8,
+            6,
+            1
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            8,
+            5,
+            2
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            8,
+            4,
+            3
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            8,
+            4,
+            2,
+            1
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            8,
+            3,
+            2,
+            2
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            7,
+            6,
+            2
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            7,
+            5,
+            2,
+            1
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            7,
+            4,
+            4
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            7,
+            4,
+            3,
+            1
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            7,
+            4,
+            2,
+            2
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            7,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            6,
+            6,
+            3
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            6,
+            5,
+            2,
+            2
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            6,
+            4,
+            4,
+            1
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            6,
+            4,
+            2,
+            2,
+            1
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            5,
+            5,
+            3,
+            1,
+            1
+          ]
+        },
+        {
+          "coefficient": "1",
+          "partition": [
+            5,
+            4,
+            4,
+            2
+          ]
+        }
+      ],
+      "support_size": 28,
+      "total_degree": 15
+    }
+  ],
+  "tag": "claimed-comp",
+  "task": "T6_direct_plethysm_d2_d5"
+}

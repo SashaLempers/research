@@ -1,0 +1,147 @@
+{
+  "artifacts": {
+    "certificate": "C:\\Users\\sashack\\Documents\\Codex\\2026-06-14\\goal-execute-c-users-sashack-downloads\\outputs\\open_problem_31_run\\certificates\\T3_conjugated_tori_search.json",
+    "log": "C:\\Users\\sashack\\Documents\\Codex\\2026-06-14\\goal-execute-c-users-sashack-downloads\\outputs\\open_problem_31_run\\logs\\T3_conjugated_tori_search.log",
+    "script": "C:\\Users\\sashack\\Documents\\Codex\\2026-06-14\\goal-execute-c-users-sashack-downloads\\outputs\\open_problem_31_run\\scripts\\T3_conjugated_tori_search.py"
+  },
+  "best_near_support_record": {
+    "U_index": 0,
+    "V_index": 0,
+    "a": [
+      0,
+      0,
+      0
+    ],
+    "b": [
+      0,
+      0,
+      0
+    ],
+    "case": 1,
+    "initial_form": [
+      {
+        "coeff": "1",
+        "exp": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "coeff": "1",
+        "exp": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "coeff": "1",
+        "exp": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "coeff": "1",
+        "exp": [
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "coeff": "1",
+        "exp": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "coeff": "1",
+        "exp": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    ],
+    "initial_support_size": 6,
+    "valuation": 0
+  },
+  "elapsed_seconds": 12.454901695251465,
+  "exhausted_full_T3_scope_without_match": false,
+  "field": "Q",
+  "found_det3_initial_form": false,
+  "found_family": null,
+  "full_T3_scope_completed": false,
+  "interpretation": "U-library generated as P*S*U_base; exponent triples optionally quotient common additive shifts.",
+  "library_sizes": {
+    "U_library": 192,
+    "dedupe_max_raw_coverage_per_matrix": 192,
+    "dedupe_min_raw_coverage_per_matrix": 2,
+    "exponent_triples": 217,
+    "full_pair_count_for_this_parameter_set": 88981489,
+    "precomputed_one_parameter_matrices": 9433,
+    "raw_one_parameter_matrices": 41664,
+    "scalar_shift_quotient_covers_all_exponents_in_bound": true
+  },
+  "limitations": "If search_completed_for_parameter_set is false, this is only a partial run and proves no exhaustive failure.",
+  "method": "exact Laurent-polynomial initial form search for conjugated GL3xGL3 tori",
+  "parameters": {
+    "bound": 4,
+    "canonical_shift": true,
+    "case_limit": 10000,
+    "dedupe": true,
+    "max_exponents": null,
+    "max_families": null,
+    "max_u": null,
+    "start_case": 1
+  },
+  "search_completed_for_parameter_set": false,
+  "searched_case_interval": [
+    1,
+    10000
+  ],
+  "searched_families": 10000,
+  "tag": "comp-obs",
+  "task": "T3"
+}

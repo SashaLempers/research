@@ -1,0 +1,161 @@
+T2 - elimination of poor families
+tag: proved-alg by symbolic coefficient comparison over Q
+arithmetic: symbolic integer/rational equations only; no floating point
+Part a: row-column torus weights
+{
+  "family": "x_ij -> t^(r_i+c_j) x_ij",
+  "permutation_weights": [
+    {
+      "permutation": "123",
+      "monomial": "x11 x22 x33",
+      "weight_terms": [
+        "r1",
+        "r2",
+        "r3",
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "normalized_weight": "r1+r2+r3+c1+c2+c3",
+      "sorted_column_terms": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    },
+    {
+      "permutation": "132",
+      "monomial": "x11 x23 x32",
+      "weight_terms": [
+        "r1",
+        "r2",
+        "r3",
+        "c1",
+        "c3",
+        "c2"
+      ],
+      "normalized_weight": "r1+r2+r3+c1+c2+c3",
+      "sorted_column_terms": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    },
+    {
+      "permutation": "213",
+      "monomial": "x12 x21 x33",
+      "weight_terms": [
+        "r1",
+        "r2",
+        "r3",
+        "c2",
+        "c1",
+        "c3"
+      ],
+      "normalized_weight": "r1+r2+r3+c1+c2+c3",
+      "sorted_column_terms": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    },
+    {
+      "permutation": "231",
+      "monomial": "x12 x23 x31",
+      "weight_terms": [
+        "r1",
+        "r2",
+        "r3",
+        "c2",
+        "c3",
+        "c1"
+      ],
+      "normalized_weight": "r1+r2+r3+c1+c2+c3",
+      "sorted_column_terms": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    },
+    {
+      "permutation": "312",
+      "monomial": "x13 x21 x32",
+      "weight_terms": [
+        "r1",
+        "r2",
+        "r3",
+        "c3",
+        "c1",
+        "c2"
+      ],
+      "normalized_weight": "r1+r2+r3+c1+c2+c3",
+      "sorted_column_terms": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    },
+    {
+      "permutation": "321",
+      "monomial": "x13 x22 x31",
+      "weight_terms": [
+        "r1",
+        "r2",
+        "r3",
+        "c3",
+        "c2",
+        "c1"
+      ],
+      "normalized_weight": "r1+r2+r3+c1+c2+c3",
+      "sorted_column_terms": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  ],
+  "all_six_permutation_monomials_have_same_weight": true,
+  "conclusion": "A pure row-column torus in GL3xGL3 cannot select different initial terms among the six determinant/permanent permutation monomials."
+}
+Part b: diagonal (d,s,a) coefficient comparison
+{
+  "family": "diagonal scaling in the (d,s,a) basis",
+  "variables": [
+    "D1",
+    "D2",
+    "D3",
+    "S12",
+    "A12",
+    "S13",
+    "A13",
+    "S23",
+    "A23",
+    "c"
+  ],
+  "comparison_equations": [
+    "D1*D2*D3 = c",
+    "S12*S13*S23 = c",
+    "S12*A13*A23 = c",
+    "S13*A12*A23 = c",
+    "S23*A12*A13 = c",
+    "D1*S23^2 = -c",
+    "D2*S13^2 = -c",
+    "D3*S12^2 = -c",
+    "D1*A23^2 = -c",
+    "D2*A13^2 = -c",
+    "D3*A12^2 = -c",
+    "c != 0"
+  ],
+  "contradiction": "2*c^3 = 0 with c != 0 over Q",
+  "proof": [
+    "Assume a nonzero diagonal change in the (d,s,a) basis sends perm3 to c*det3.",
+    "The coefficient of d1*d2*d3 gives D1*D2*D3 = c.",
+    "The coefficients of d1*s23^2, d2*s13^2, d3*s12^2 give D1*S23^2 = -c, D2*S13^2 = -c, D3*S12^2 = -c.",
+    "Multiplying these three sign equations gives (D1*D2*D3)*(S12*S13*S23)^2 = -c^3.",
+    "The coefficients of d1*d2*d3 and s12*s13*s23 give D1*D2*D3 = c and S12*S13*S23 = c.",
+    "Substitution gives c*c^2 = -c^3, hence 2*c^3 = 0.",
+    "Over Q, characteristic is 0 and c != 0, contradiction."
+  ],
+  "compatible_over_Q": false,
+  "conclusion": "No diagonal (d,s,a)-basis scaling transforms perm3 exactly into a nonzero multiple of det3 over Q."
+}

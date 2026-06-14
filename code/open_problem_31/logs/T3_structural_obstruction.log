@@ -1,0 +1,311 @@
+T3 structural obstruction certificate
+tag: proved-alg
+arithmetic: integer polynomial dictionaries over Q; no floating point
+Identity target perm(P)*perm(Q):
+[
+  {
+    "monomial": "p11*p22*p33*q11*q22*q33",
+    "coefficient": 1
+  },
+  {
+    "monomial": "p11*p22*p33*q11*q23*q32",
+    "coefficient": 1
+  },
+  {
+    "monomial": "p11*p22*p33*q12*q21*q33",
+    "coefficient": 1
+  },
+  {
+    "monomial": "p11*p22*p33*q12*q23*q31",
+    "coefficient": 1
+  },
+  {
+    "monomial": "p11*p22*p33*q13*q21*q32",
+    "coefficient": 1
+  },
+  {
+    "monomial": "p11*p22*p33*q13*q22*q31",
+    "coefficient": 1
+  },
+  {
+    "monomial": "p11*p23*p32*q11*q22*q33",
+    "coefficient": 1
+  },
+  {
+    "monomial": "p11*p23*p32*q11*q23*q32",
+    "coefficient": 1
+  },
+  {
+    "monomial": "p11*p23*p32*q12*q21*q33",
+    "coefficient": 1
+  },
+  {
+    "monomial": "p11*p23*p32*q12*q23*q31",
+    "coefficient": 1
+  },
+  {
+    "monomial": "p11*p23*p32*q13*q21*q32",
+    "coefficient": 1
+  },
+  {
+    "monomial": "p11*p23*p32*q13*q22*q31",
+    "coefficient": 1
+  },
+  {
+    "monomial": "p12*p21*p33*q11*q22*q33",
+    "coefficient": 1
+  },
+  {
+    "monomial": "p12*p21*p33*q11*q23*q32",
+    "coefficient": 1
+  },
+  {
+    "monomial": "p12*p21*p33*q12*q21*q33",
+    "coefficient": 1
+  },
+  {
+    "monomial": "p12*p21*p33*q12*q23*q31",
+    "coefficient": 1
+  },
+  {
+    "monomial": "p12*p21*p33*q13*q21*q32",
+    "coefficient": 1
+  },
+  {
+    "monomial": "p12*p21*p33*q13*q22*q31",
+    "coefficient": 1
+  },
+  {
+    "monomial": "p12*p23*p31*q11*q22*q33",
+    "coefficient": 1
+  },
+  {
+    "monomial": "p12*p23*p31*q11*q23*q32",
+    "coefficient": 1
+  },
+  {
+    "monomial": "p12*p23*p31*q12*q21*q33",
+    "coefficient": 1
+  },
+  {
+    "monomial": "p12*p23*p31*q12*q23*q31",
+    "coefficient": 1
+  },
+  {
+    "monomial": "p12*p23*p31*q13*q21*q32",
+    "coefficient": 1
+  },
+  {
+    "monomial": "p12*p23*p31*q13*q22*q31",
+    "coefficient": 1
+  },
+  {
+    "monomial": "p13*p21*p32*q11*q22*q33",
+    "coefficient": 1
+  },
+  {
+    "monomial": "p13*p21*p32*q11*q23*q32",
+    "coefficient": 1
+  },
+  {
+    "monomial": "p13*p21*p32*q12*q21*q33",
+    "coefficient": 1
+  },
+  {
+    "monomial": "p13*p21*p32*q12*q23*q31",
+    "coefficient": 1
+  },
+  {
+    "monomial": "p13*p21*p32*q13*q21*q32",
+    "coefficient": 1
+  },
+  {
+    "monomial": "p13*p21*p32*q13*q22*q31",
+    "coefficient": 1
+  },
+  {
+    "monomial": "p13*p22*p31*q11*q22*q33",
+    "coefficient": 1
+  },
+  {
+    "monomial": "p13*p22*p31*q11*q23*q32",
+    "coefficient": 1
+  },
+  {
+    "monomial": "p13*p22*p31*q12*q21*q33",
+    "coefficient": 1
+  },
+  {
+    "monomial": "p13*p22*p31*q12*q23*q31",
+    "coefficient": 1
+  },
+  {
+    "monomial": "p13*p22*p31*q13*q21*q32",
+    "coefficient": 1
+  },
+  {
+    "monomial": "p13*p22*p31*q13*q22*q31",
+    "coefficient": 1
+  }
+]
+Coefficient checks [M_rho]F - perm(P)*perm(Q):
+[
+  {
+    "rho": "123",
+    "coefficient_term_count": 36,
+    "target_term_count": 36,
+    "difference_is_zero": true,
+    "difference_terms": []
+  },
+  {
+    "rho": "132",
+    "coefficient_term_count": 36,
+    "target_term_count": 36,
+    "difference_is_zero": true,
+    "difference_terms": []
+  },
+  {
+    "rho": "213",
+    "coefficient_term_count": 36,
+    "target_term_count": 36,
+    "difference_is_zero": true,
+    "difference_terms": []
+  },
+  {
+    "rho": "231",
+    "coefficient_term_count": 36,
+    "target_term_count": 36,
+    "difference_is_zero": true,
+    "difference_terms": []
+  },
+  {
+    "rho": "312",
+    "coefficient_term_count": 36,
+    "target_term_count": 36,
+    "difference_is_zero": true,
+    "difference_terms": []
+  },
+  {
+    "rho": "321",
+    "coefficient_term_count": 36,
+    "target_term_count": 36,
+    "difference_is_zero": true,
+    "difference_terms": []
+  }
+]
+Toric weight checks:
+[
+  {
+    "rho": "123",
+    "weight_vector_a1a2a3b1b2b3": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "weight": "a1+a2+a3+b1+b2+b3"
+  },
+  {
+    "rho": "132",
+    "weight_vector_a1a2a3b1b2b3": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "weight": "a1+a2+a3+b1+b2+b3"
+  },
+  {
+    "rho": "213",
+    "weight_vector_a1a2a3b1b2b3": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "weight": "a1+a2+a3+b1+b2+b3"
+  },
+  {
+    "rho": "231",
+    "weight_vector_a1a2a3b1b2b3": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "weight": "a1+a2+a3+b1+b2+b3"
+  },
+  {
+    "rho": "312",
+    "weight_vector_a1a2a3b1b2b3": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "weight": "a1+a2+a3+b1+b2+b3"
+  },
+  {
+    "rho": "321",
+    "weight_vector_a1a2a3b1b2b3": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "weight": "a1+a2+a3+b1+b2+b3"
+  }
+]
+Scope limitation:
+Specific to conjugated GL3xGL3 tori. This does not apply to T4 families acting on (s_ij,a_ij) blocks, because those can distinguish x_ij from x_ji and the equal-coefficient lemma no longer holds.
+TeX theorem/proof:
+\begin{theorem}[T3 structural obstruction]
+Let \(P,Q\in GL_3\), let \(F_{P,Q}(Y)=\operatorname{perm}_3(PYQ^T)\), and let
+\(M_\rho=\prod_i y_{i,\rho(i)}\) for \(\rho\in S_3\). Then
+\[
+  [M_\rho]F_{P,Q}=\operatorname{perm}(P)\operatorname{perm}(Q)
+\]
+for every \(\rho\in S_3\). In particular the six coefficients are independent
+of \(\rho\).
+
+Consequently no one-parameter torus conjugated inside \(GL_3\times GL_3\),
+\[
+ A(t)=U\operatorname{diag}(t^{a_i})U^{-1},\qquad
+ B(t)=V\operatorname{diag}(t^{b_j})V^{-1},
+\]
+can degenerate \(\operatorname{perm}_3\) to a nonzero scalar multiple of
+\(\operatorname{det}_3\).
+\end{theorem}
+
+\begin{proof}
+Expanding \(F_{P,Q}\), the coefficient of \(M_\rho\) is obtained by choosing a
+permutation \(\tau\) of the \(Y\)-rows in the three factors of the permanent and
+a permutation \(\sigma\) from the outer permanent:
+\[
+ \sum_{\sigma,\tau\in S_3}\prod_i p_{i,\tau(i)}q_{\sigma(i),\rho(\tau(i))}.
+\]
+The \(p\)-part is \(\operatorname{perm}(P)\), and, after reindexing, the
+\(q\)-part is \(\operatorname{perm}(Q)\); the column permutation \(\rho\) does
+not change a permanent. Thus all six coefficients are equal to
+\(\operatorname{perm}(P)\operatorname{perm}(Q)\).
+
+For a conjugated torus \(A(t)\otimes B(t)\), every \(M_\rho\) has toric weight
+\(\sum_i a_i+\sum_j b_j\). Hence the six permutation monomials survive or
+disappear together in any initial form. If their common coefficient is nonzero,
+the six coefficients are equal and cannot be proportional to the alternating
+signs of \(\det_3\). If it is zero, all six are zero, while \(\det_3\) has all
+six coefficients nonzero. Therefore no such initial form is \(c\det_3\) with
+\(c\ne0\).
+\end{proof}

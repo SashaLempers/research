@@ -1,0 +1,113 @@
+{
+  "artifacts": {
+    "certificate": "C:\\Users\\sashack\\Documents\\Codex\\2026-06-14\\goal-execute-c-users-sashack-downloads\\outputs\\open_problem_31_run\\certificates\\T1_dsabase_rewrite.json",
+    "log": "C:\\Users\\sashack\\Documents\\Codex\\2026-06-14\\goal-execute-c-users-sashack-downloads\\outputs\\open_problem_31_run\\logs\\T1_dsabase_rewrite.log",
+    "script": "C:\\Users\\sashack\\Documents\\Codex\\2026-06-14\\goal-execute-c-users-sashack-downloads\\outputs\\open_problem_31_run\\scripts\\T1_dsabase_rewrite.py"
+  },
+  "equalities": {
+    "det_guess_minus_det3_is_zero": true,
+    "perm_guess_minus_perm3_is_zero": true
+  },
+  "field": "Q",
+  "method": "exact expansion from (d,s,a) linear forms back to x_ij",
+  "supports": {
+    "common_support_same_coefficients": [
+      {
+        "coefficient": "1",
+        "monomial": "d1*d2*d3"
+      },
+      {
+        "coefficient": "1/4",
+        "monomial": "s12*s13*s23"
+      },
+      {
+        "coefficient": "-1/4",
+        "monomial": "s12*a13*a23"
+      },
+      {
+        "coefficient": "1/4",
+        "monomial": "a12*s13*a23"
+      },
+      {
+        "coefficient": "-1/4",
+        "monomial": "a12*a13*s23"
+      }
+    ],
+    "det3_minus_perm3": [
+      {
+        "coefficient": "-1/2",
+        "monomial": "d1*s23^2"
+      },
+      {
+        "coefficient": "-1/2",
+        "monomial": "d2*s13^2"
+      },
+      {
+        "coefficient": "-1/2",
+        "monomial": "d3*s12^2"
+      },
+      {
+        "coefficient": "1/2",
+        "monomial": "d1*a23^2"
+      },
+      {
+        "coefficient": "1/2",
+        "monomial": "d2*a13^2"
+      },
+      {
+        "coefficient": "1/2",
+        "monomial": "d3*a12^2"
+      }
+    ],
+    "det3_plus_perm3": [
+      {
+        "coefficient": "2",
+        "monomial": "d1*d2*d3"
+      },
+      {
+        "coefficient": "1/2",
+        "monomial": "s12*s13*s23"
+      },
+      {
+        "coefficient": "-1/2",
+        "monomial": "s12*a13*a23"
+      },
+      {
+        "coefficient": "1/2",
+        "monomial": "a12*s13*a23"
+      },
+      {
+        "coefficient": "-1/2",
+        "monomial": "a12*a13*s23"
+      }
+    ],
+    "support_with_opposite_signs_listed_as_det_coefficients": [
+      {
+        "coefficient": "-1/4",
+        "monomial": "d1*s23^2"
+      },
+      {
+        "coefficient": "-1/4",
+        "monomial": "d2*s13^2"
+      },
+      {
+        "coefficient": "-1/4",
+        "monomial": "d3*s12^2"
+      },
+      {
+        "coefficient": "1/4",
+        "monomial": "d1*a23^2"
+      },
+      {
+        "coefficient": "1/4",
+        "monomial": "d2*a13^2"
+      },
+      {
+        "coefficient": "1/4",
+        "monomial": "d3*a12^2"
+      }
+    ]
+  },
+  "tag": "proved-alg",
+  "task": "T1"
+}

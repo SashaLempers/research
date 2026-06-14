@@ -1,0 +1,417 @@
+{
+  "artifacts": {
+    "certificate": "C:\\Users\\sashack\\Documents\\Codex\\2026-06-14\\goal-execute-c-users-sashack-downloads\\outputs\\open_problem_31_run\\certificates\\T4_blocks_search.json",
+    "log": "C:\\Users\\sashack\\Documents\\Codex\\2026-06-14\\goal-execute-c-users-sashack-downloads\\outputs\\open_problem_31_run\\logs\\T4_blocks_search.log",
+    "script": "C:\\Users\\sashack\\Documents\\Codex\\2026-06-14\\goal-execute-c-users-sashack-downloads\\outputs\\open_problem_31_run\\scripts\\T4_blocks_search.py"
+  },
+  "best_near_support_record": {
+    "H_index": 0,
+    "case": 1,
+    "exponent_index": 0,
+    "exponents": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "initial_form_sample": [
+      {
+        "coeff": "1/4",
+        "exp": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "monomial": "a12*a13*s23"
+      },
+      {
+        "coeff": "-1/4",
+        "exp": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "monomial": "a12*s13*a23"
+      },
+      {
+        "coeff": "-1/4",
+        "exp": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        "monomial": "d1*a23^2"
+      },
+      {
+        "coeff": "1",
+        "exp": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "monomial": "d1*d2*d3"
+      },
+      {
+        "coeff": "1/4",
+        "exp": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        "monomial": "d1*s23^2"
+      },
+      {
+        "coeff": "-1/4",
+        "exp": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        "monomial": "d2*a13^2"
+      },
+      {
+        "coeff": "1/4",
+        "exp": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        "monomial": "d2*s13^2"
+      },
+      {
+        "coeff": "-1/4",
+        "exp": [
+          0,
+          0,
+          1,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "monomial": "d3*a12^2"
+      },
+      {
+        "coeff": "1/4",
+        "exp": [
+          0,
+          0,
+          1,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "monomial": "d3*s12^2"
+      },
+      {
+        "coeff": "1/4",
+        "exp": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "monomial": "s12*a13*a23"
+      },
+      {
+        "coeff": "-1/4",
+        "exp": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "monomial": "s12*s13*s23"
+      }
+    ],
+    "initial_support_size": 11,
+    "support_filter": "passed_size",
+    "valuation": 0
+  },
+  "elapsed_seconds": 12.717264890670776,
+  "field": "Q",
+  "found_exact_match_requiring_T5": false,
+  "found_match": null,
+  "full_T4_scope_completed": false,
+  "library_sizes": {
+    "H_library_size": 131072,
+    "U2_augmented_size": 32,
+    "U3_base_size": 4,
+    "exponent_vector_count": 5444719021,
+    "full_case_count_for_parameter_set": 713650211520512,
+    "scalar_shift_quotient_covers_all_exponents_in_bound": true
+  },
+  "limitations": "Partial checkpoints are comp-obs and do not prove exhaustive T4 failure.",
+  "method": "exact Laurent-polynomial checkpoint search in (d,s,a) block family",
+  "parameters": {
+    "bound": 6,
+    "canonical_shift": true,
+    "case_limit": 1000,
+    "max_h": null,
+    "max_quasi": 20,
+    "start_case": 1
+  },
+  "quasi_matches": [
+    {
+      "H_index": 0,
+      "case": 1,
+      "exponent_index": 0,
+      "exponents": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "initial_form": [
+        {
+          "coeff": "1/4",
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "monomial": "a12*a13*s23"
+        },
+        {
+          "coeff": "-1/4",
+          "exp": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "monomial": "a12*s13*a23"
+        },
+        {
+          "coeff": "-1/4",
+          "exp": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          "monomial": "d1*a23^2"
+        },
+        {
+          "coeff": "1",
+          "exp": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "d1*d2*d3"
+        },
+        {
+          "coeff": "1/4",
+          "exp": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0
+          ],
+          "monomial": "d1*s23^2"
+        },
+        {
+          "coeff": "-1/4",
+          "exp": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "monomial": "d2*a13^2"
+        },
+        {
+          "coeff": "1/4",
+          "exp": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0
+          ],
+          "monomial": "d2*s13^2"
+        },
+        {
+          "coeff": "-1/4",
+          "exp": [
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "d3*a12^2"
+        },
+        {
+          "coeff": "1/4",
+          "exp": [
+            0,
+            0,
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "monomial": "d3*s12^2"
+        },
+        {
+          "coeff": "1/4",
+          "exp": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "monomial": "s12*a13*a23"
+        },
+        {
+          "coeff": "-1/4",
+          "exp": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "monomial": "s12*s13*s23"
+        }
+      ],
+      "reason": "same support as det_y, coefficients not a scalar multiple",
+      "scalar": null,
+      "valuation": 0
+    }
+  ],
+  "searched_case_interval": [
+    1,
+    1000
+  ],
+  "searched_cases": 1000,
+  "support_filter": {
+    "description": "Conservative cardinality filter only: reject only if support size differs from det_y support size 11; signed permutations preserve cardinality.",
+    "exact_det_support_matches": 1,
+    "filtered_by_size": 999,
+    "passed_size_filter": 1
+  },
+  "tag": "comp-obs",
+  "task": "T4"
+}

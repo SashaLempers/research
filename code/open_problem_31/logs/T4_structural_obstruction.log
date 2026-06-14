@@ -1,0 +1,161 @@
+T4 structural obstruction certificate
+tag: proved-alg
+arithmetic: exact Fraction over Q; no floating point
+basis convention: x_ij=s_ij+a_ij, x_ji=s_ij-a_ij
+det d*s^2 / d*a^2 coefficient checks: True
+uv absence checks: True
+lambda weight system implied exactly: True
+pair-block dichotomy diagonal/anti-diagonal: True
+H_d off-diagonal cycle obstruction: True
+orientation admissible bits: [[0, 0, 0], [1, 1, 1]]
+final contradiction grouping identity: True
+scope: Specific to block-diagonal families H_d direct_sum H_12 direct_sum H_13 direct_sum H_23 in the (d,s,a) basis. It does not close the general GL_9 case, where diagonal coordinates and pair blocks may mix. Open Problem 31 remains Open.
+pair coefficient checks:
+[
+  {
+    "pair": "12",
+    "complement_diagonal": "d3",
+    "det_coeff_d_s_squared": "-1",
+    "det_coeff_d_a_squared": "1",
+    "ok": true
+  },
+  {
+    "pair": "13",
+    "complement_diagonal": "d2",
+    "det_coeff_d_s_squared": "-1",
+    "det_coeff_d_a_squared": "1",
+    "ok": true
+  },
+  {
+    "pair": "23",
+    "complement_diagonal": "d1",
+    "det_coeff_d_s_squared": "-1",
+    "det_coeff_d_a_squared": "1",
+    "ok": true
+  }
+]
+orientation enumeration:
+[
+  {
+    "bits_12_13_23": [
+      0,
+      0,
+      0
+    ],
+    "image_set": [
+      "u12*v13*u23",
+      "v12*u13*v23"
+    ],
+    "admissible": true,
+    "parasites": []
+  },
+  {
+    "bits_12_13_23": [
+      0,
+      0,
+      1
+    ],
+    "image_set": [
+      "u12*v13*v23",
+      "v12*u13*u23"
+    ],
+    "admissible": false,
+    "parasites": [
+      "u12*v13*v23",
+      "v12*u13*u23"
+    ]
+  },
+  {
+    "bits_12_13_23": [
+      0,
+      1,
+      0
+    ],
+    "image_set": [
+      "u12*u13*u23",
+      "v12*v13*v23"
+    ],
+    "admissible": false,
+    "parasites": [
+      "u12*u13*u23",
+      "v12*v13*v23"
+    ]
+  },
+  {
+    "bits_12_13_23": [
+      0,
+      1,
+      1
+    ],
+    "image_set": [
+      "u12*u13*v23",
+      "v12*v13*u23"
+    ],
+    "admissible": false,
+    "parasites": [
+      "u12*u13*v23",
+      "v12*v13*u23"
+    ]
+  },
+  {
+    "bits_12_13_23": [
+      1,
+      0,
+      0
+    ],
+    "image_set": [
+      "u12*u13*v23",
+      "v12*v13*u23"
+    ],
+    "admissible": false,
+    "parasites": [
+      "u12*u13*v23",
+      "v12*v13*u23"
+    ]
+  },
+  {
+    "bits_12_13_23": [
+      1,
+      0,
+      1
+    ],
+    "image_set": [
+      "u12*u13*u23",
+      "v12*v13*v23"
+    ],
+    "admissible": false,
+    "parasites": [
+      "u12*u13*u23",
+      "v12*v13*v23"
+    ]
+  },
+  {
+    "bits_12_13_23": [
+      1,
+      1,
+      0
+    ],
+    "image_set": [
+      "u12*v13*v23",
+      "v12*u13*u23"
+    ],
+    "admissible": false,
+    "parasites": [
+      "u12*v13*v23",
+      "v12*u13*u23"
+    ]
+  },
+  {
+    "bits_12_13_23": [
+      1,
+      1,
+      1
+    ],
+    "image_set": [
+      "u12*v13*u23",
+      "v12*u13*v23"
+    ],
+    "admissible": true,
+    "parasites": []
+  }
+]

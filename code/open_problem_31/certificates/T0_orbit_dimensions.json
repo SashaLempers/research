@@ -1,0 +1,42 @@
+{
+  "artifacts": {
+    "certificate": "C:\\Users\\sashack\\Documents\\Codex\\2026-06-14\\goal-execute-c-users-sashack-downloads\\outputs\\open_problem_31_run\\certificates\\T0_orbit_dimensions.json",
+    "log": "C:\\Users\\sashack\\Documents\\Codex\\2026-06-14\\goal-execute-c-users-sashack-downloads\\outputs\\open_problem_31_run\\logs\\T0_orbit_dimensions.log",
+    "script": "C:\\Users\\sashack\\Documents\\Codex\\2026-06-14\\goal-execute-c-users-sashack-downloads\\outputs\\open_problem_31_run\\scripts\\T0_orbit_dimensions.py"
+  },
+  "basis_size": 165,
+  "deduction": "Since dim(GL9.perm3)=77 and dim(GL9.det3)=65, perm3 is not in X_det: otherwise X_perm=closure(GL9.perm3) would be contained in X_det, forcing dim(X_perm)<=dim(X_det). The GCT-relevant direction left by this dimension check is det3 in X_perm.",
+  "field": "Q",
+  "limitations": "This is a dimension check only; it does not decide det3 in X_perm.",
+  "matrix_shape": [
+    81,
+    165
+  ],
+  "method": "exact integer tangent matrix for gl9 action; Bareiss rank",
+  "results": {
+    "dim_GL9_orbit_det3": 65,
+    "dim_GL9_orbit_perm3": 77,
+    "expected": {
+      "det3": 65,
+      "perm3": 77
+    },
+    "perm3_not_in_X_det_by_dimension": true,
+    "status": {
+      "det3_matches_expected": true,
+      "perm3_matches_expected": true
+    }
+  },
+  "tag": "proved-alg",
+  "task": "T0",
+  "variables": [
+    "x11",
+    "x12",
+    "x13",
+    "x21",
+    "x22",
+    "x23",
+    "x31",
+    "x32",
+    "x33"
+  ]
+}

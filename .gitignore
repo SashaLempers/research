@@ -50,3 +50,7 @@ note_sl9_invariants_final_all_in_one*.pdf
 archives/
 good_archive/
 research_papers/
+
+# Exceptions: certified log bundles that must be tracked
+!code/open_problem_31/logs/
+!code/open_problem_31/logs/**

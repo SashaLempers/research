@@ -1,0 +1,386 @@
+{
+  "artifacts": {
+    "certificate": "C:\\Users\\sashack\\Documents\\Codex\\2026-06-14\\goal-execute-c-users-sashack-downloads\\outputs\\open_problem_31_run\\certificates\\T4_structural_obstruction.json",
+    "log": "C:\\Users\\sashack\\Documents\\Codex\\2026-06-14\\goal-execute-c-users-sashack-downloads\\outputs\\open_problem_31_run\\logs\\T4_structural_obstruction.log",
+    "script": "C:\\Users\\sashack\\Documents\\Codex\\2026-06-14\\goal-execute-c-users-sashack-downloads\\outputs\\open_problem_31_run\\scripts\\T4_structural_obstruction.py"
+  },
+  "basis_convention": "x_ij=s_ij+a_ij, x_ji=s_ij-a_ij",
+  "diagonal_block": {
+    "all_nonidentity_terms_impossible": true,
+    "coefficient_equation": "h1*h2*h3 = c",
+    "identity_term": "h11*h22*h33",
+    "nonidentity_terms_checked": [
+      {
+        "moved_cycles": [
+          [
+            2,
+            3
+          ]
+        ],
+        "permutation": "132",
+        "reason": "A nonzero off-diagonal term would require delta_{pi(i)} > delta_i around a moved cycle.",
+        "strict_cycle_contradiction": true
+      },
+      {
+        "moved_cycles": [
+          [
+            1,
+            2
+          ]
+        ],
+        "permutation": "213",
+        "reason": "A nonzero off-diagonal term would require delta_{pi(i)} > delta_i around a moved cycle.",
+        "strict_cycle_contradiction": true
+      },
+      {
+        "moved_cycles": [
+          [
+            1,
+            2,
+            3
+          ]
+        ],
+        "permutation": "231",
+        "reason": "A nonzero off-diagonal term would require delta_{pi(i)} > delta_i around a moved cycle.",
+        "strict_cycle_contradiction": true
+      },
+      {
+        "moved_cycles": [
+          [
+            1,
+            3,
+            2
+          ]
+        ],
+        "permutation": "312",
+        "reason": "A nonzero off-diagonal term would require delta_{pi(i)} > delta_i around a moved cycle.",
+        "strict_cycle_contradiction": true
+      },
+      {
+        "moved_cycles": [
+          [
+            1,
+            3
+          ]
+        ],
+        "permutation": "321",
+        "reason": "A nonzero off-diagonal term would require delta_{pi(i)} > delta_i around a moved cycle.",
+        "strict_cycle_contradiction": true
+      }
+    ],
+    "surviving_permanent_of_Hd": "h1*h2*h3"
+  },
+  "field": "Q",
+  "final_contradiction": {
+    "after_dividing_by_c_nonzero": [
+      {
+        "coeff": "2",
+        "monomial": "c^2"
+      }
+    ],
+    "conclusion": "Over Q, hence over characteristic zero, 2*c^2=0 forces c=0, contradicting c in C*.",
+    "grouping_identity_exact": true,
+    "product_of_first_three_gives": "c^3 = -c^3",
+    "raw_contradiction": [
+      {
+        "coeff": "2",
+        "monomial": "c^3"
+      }
+    ],
+    "system": [
+      "h3*mu12 = -c",
+      "h2*mu13 = -c",
+      "h1*mu23 = -c",
+      "h1*h2*h3 = c",
+      "mu12*mu13*mu23 = c^2"
+    ]
+  },
+  "method": "exact polynomial dictionaries over Fraction plus exact Q-linear rank checks",
+  "orientation_enumeration": {
+    "T_minus": "v12*u13*v23",
+    "T_plus": "u12*v13*u23",
+    "admissible_bits": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "only_all_equal_orientations": true,
+    "orientation_rows": [
+      {
+        "admissible": true,
+        "bits_12_13_23": [
+          0,
+          0,
+          0
+        ],
+        "image_set": [
+          "u12*v13*u23",
+          "v12*u13*v23"
+        ],
+        "parasites": []
+      },
+      {
+        "admissible": false,
+        "bits_12_13_23": [
+          0,
+          0,
+          1
+        ],
+        "image_set": [
+          "u12*v13*v23",
+          "v12*u13*u23"
+        ],
+        "parasites": [
+          "u12*v13*v23",
+          "v12*u13*u23"
+        ]
+      },
+      {
+        "admissible": false,
+        "bits_12_13_23": [
+          0,
+          1,
+          0
+        ],
+        "image_set": [
+          "u12*u13*u23",
+          "v12*v13*v23"
+        ],
+        "parasites": [
+          "u12*u13*u23",
+          "v12*v13*v23"
+        ]
+      },
+      {
+        "admissible": false,
+        "bits_12_13_23": [
+          0,
+          1,
+          1
+        ],
+        "image_set": [
+          "u12*u13*v23",
+          "v12*v13*u23"
+        ],
+        "parasites": [
+          "u12*u13*v23",
+          "v12*v13*u23"
+        ]
+      },
+      {
+        "admissible": false,
+        "bits_12_13_23": [
+          1,
+          0,
+          0
+        ],
+        "image_set": [
+          "u12*u13*v23",
+          "v12*v13*u23"
+        ],
+        "parasites": [
+          "u12*u13*v23",
+          "v12*v13*u23"
+        ]
+      },
+      {
+        "admissible": false,
+        "bits_12_13_23": [
+          1,
+          0,
+          1
+        ],
+        "image_set": [
+          "u12*u13*u23",
+          "v12*v13*v23"
+        ],
+        "parasites": [
+          "u12*u13*u23",
+          "v12*v13*v23"
+        ]
+      },
+      {
+        "admissible": false,
+        "bits_12_13_23": [
+          1,
+          1,
+          0
+        ],
+        "image_set": [
+          "u12*v13*v23",
+          "v12*u13*u23"
+        ],
+        "parasites": [
+          "u12*v13*v23",
+          "v12*u13*u23"
+        ]
+      },
+      {
+        "admissible": true,
+        "bits_12_13_23": [
+          1,
+          1,
+          1
+        ],
+        "image_set": [
+          "u12*v13*u23",
+          "v12*u13*v23"
+        ],
+        "parasites": []
+      }
+    ],
+    "target_set": [
+      "u12*v13*u23",
+      "v12*u13*v23"
+    ]
+  },
+  "pair_block_dichotomy": {
+    "coeff_u2_is_pr": true,
+    "coeff_uv_is_pell_plus_qr": true,
+    "coeff_v2_is_qell": true,
+    "expanded_uv_image": [
+      {
+        "coeff": "1",
+        "monomial": "v^2*q*ell"
+      },
+      {
+        "coeff": "1",
+        "monomial": "u*v*q*r"
+      },
+      {
+        "coeff": "1",
+        "monomial": "u*v*p*ell"
+      },
+      {
+        "coeff": "1",
+        "monomial": "u^2*p*r"
+      }
+    ],
+    "invertible_zero_product_patterns": [
+      {
+        "ell_nonzero": false,
+        "kind": "anti-diagonal",
+        "p_nonzero": false,
+        "q_nonzero": true,
+        "r_nonzero": true
+      },
+      {
+        "ell_nonzero": true,
+        "kind": "diagonal",
+        "p_nonzero": true,
+        "q_nonzero": false,
+        "r_nonzero": false
+      }
+    ],
+    "only_diagonal_or_antidiagonal": true
+  },
+  "pair_coefficient_checks": [
+    {
+      "complement_diagonal": "d3",
+      "det_coeff_d_a_squared": "1",
+      "det_coeff_d_s_squared": "-1",
+      "ok": true,
+      "pair": "12"
+    },
+    {
+      "complement_diagonal": "d2",
+      "det_coeff_d_a_squared": "1",
+      "det_coeff_d_s_squared": "-1",
+      "ok": true,
+      "pair": "13"
+    },
+    {
+      "complement_diagonal": "d1",
+      "det_coeff_d_a_squared": "1",
+      "det_coeff_d_s_squared": "-1",
+      "ok": true,
+      "pair": "23"
+    }
+  ],
+  "scope": "Specific to block-diagonal families H_d direct_sum H_12 direct_sum H_13 direct_sum H_23 in the (d,s,a) basis. It does not close the general GL_9 case, where diagonal coordinates and pair blocks may mix. Open Problem 31 remains Open.",
+  "statement": "No degeneration perm_3 -> c*det_3 exists in the block-diagonal T4 family H_d direct_sum H_12 direct_sum H_13 direct_sum H_23 in the (d,s,a) basis.",
+  "tag": "proved-alg",
+  "task": "T4_structural_obstruction",
+  "theorem_proof_tex": "\\begin{theorem}[T4 structural obstruction]\nLet\n\\[\n  (d_1,d_2,d_3,s_{12},a_{12},s_{13},a_{13},s_{23},a_{23})\n\\]\nbe the coordinates defined by \\(x_{ij}=s_{ij}+a_{ij}\\) and\n\\(x_{ji}=s_{ij}-a_{ij}\\). Let\n\\[\n  g(t)=H\\operatorname{diag}(t^e),\\qquad\n  H=H_d\\oplus H_{12}\\oplus H_{13}\\oplus H_{23},\n\\]\nwhere \\(H_d\\in GL_3\\) acts on \\((d_1,d_2,d_3)\\) and\n\\(H_{ij}\\in GL_2\\) acts on the corresponding pair block. Then there are no\n\\(e,H,m\\) and \\(c\\in\\mathbb C^\\ast\\) such that\n\\[\n  \\lim_{t\\to 0} t^{-m}\\,g(t)\\cdot\\operatorname{perm}_3\n  =c\\,\\operatorname{det}_3 .\n\\]\n\\end{theorem}\n\n\\begin{proof}\nIn the above coordinates,\n\\(\\det_3\\) contains, for each pair \\(\\{i,j\\}\\) with complement \\(k\\), the two\nterms \\(-d_k s_{ij}^2+d_k a_{ij}^2\\). Since both occur in\n\\(c\\det_3\\), their weights in any matching initial form must both be minimal.\nThus the two weights on \\(s_{ij}\\) and \\(a_{ij}\\) are equal; write the common\nweight as \\(\\lambda_{ij}\\). The terms \\(d_1d_2d_3\\) and the two cyclic terms\nthen give\n\\[\n  \\lambda_{12}+\\lambda_{13}+\\lambda_{23}\n  =\\delta_1+\\delta_2+\\delta_3=m .\n\\]\n\nWith equal weights on each pair, write a pair block in the\n\\((u_{ij},v_{ij})=(x_{ij},x_{ji})\\) basis as\n\\[\n  u\\mapsto pu+qv,\\qquad v\\mapsto ru+\\ell v .\n\\]\nThe image of \\(uv\\) has coefficients \\(pr\\) on \\(u^2\\) and \\(q\\ell\\) on\n\\(v^2\\). Since \\(c\\det_3\\) has no \\(d_k u_{ij}^2\\) or \\(d_k v_{ij}^2\\) terms,\none has \\(pr=q\\ell=0\\). Invertibility of the block forces it to be diagonal or\nanti-diagonal in the \\((u,v)\\) basis.\n\nSimilarly, an off-diagonal contribution in the \\(d\\)-block would force strict\ninequalities \\(\\delta_{\\pi(i)}>\\delta_i\\) around a nontrivial cycle of a\npermutation \\(\\pi\\), which is impossible. Hence the only surviving contribution\nof \\(H_d\\) to the \\(d_1d_2d_3\\) coefficient is \\(h_1h_2h_3\\), so\n\\(h_1h_2h_3=c\\).\n\nThere are eight possible diagonal/anti-diagonal orientation choices on\n\\((12),(13),(23)\\). A direct check shows that only the two choices\n\\((0,0,0)\\) and \\((1,1,1)\\) preserve the set of cyclic monomials\n\\(\\{T_+,T_-\\}\\); the other six create a cyclic monomial of weight \\(m\\) not\nappearing in \\(c\\det_3\\).\n\nIn the two admissible cases, if \\(\\mu_{ij}\\) is the nonzero product of the two\npair scalars, the transposition coefficients and cyclic coefficients impose\n\\[\n  h_3\\mu_{12}=-c,\\quad h_2\\mu_{13}=-c,\\quad h_1\\mu_{23}=-c,\\quad\n  h_1h_2h_3=c,\\quad \\mu_{12}\\mu_{13}\\mu_{23}=c^2 .\n\\]\nMultiplying the first three equations and substituting the last two gives\n\\(c^3=-c^3\\). Since \\(c\\ne0\\) and the characteristic is zero, this is\nequivalent to \\(2c^2=0\\), a contradiction. Therefore no such degeneration\nexists in the stated block-diagonal T4 family.\n\\end{proof}\n",
+  "uv_absence_checks": [
+    {
+      "det_coeff_d_u_squared": "0",
+      "det_coeff_d_u_v": "-1",
+      "det_coeff_d_v_squared": "0",
+      "ok": true,
+      "pair": "12",
+      "perm_coeff_d_u_v": "1"
+    },
+    {
+      "det_coeff_d_u_squared": "0",
+      "det_coeff_d_u_v": "-1",
+      "det_coeff_d_v_squared": "0",
+      "ok": true,
+      "pair": "13",
+      "perm_coeff_d_u_v": "1"
+    },
+    {
+      "det_coeff_d_u_squared": "0",
+      "det_coeff_d_u_v": "-1",
+      "det_coeff_d_v_squared": "0",
+      "ok": true,
+      "pair": "23",
+      "perm_coeff_d_u_v": "1"
+    }
+  ],
+  "weight_equalities": [
+    {
+      "conclusion": "s12 and a12 have equal weights",
+      "difference": "2sigma12-2tau12",
+      "ok": true,
+      "pair": "12",
+      "weight_d_a_squared": "delta3+2tau12",
+      "weight_d_s_squared": "delta3+2sigma12"
+    },
+    {
+      "conclusion": "s13 and a13 have equal weights",
+      "difference": "2sigma13-2tau13",
+      "ok": true,
+      "pair": "13",
+      "weight_d_a_squared": "delta2+2tau13",
+      "weight_d_s_squared": "delta2+2sigma13"
+    },
+    {
+      "conclusion": "s23 and a23 have equal weights",
+      "difference": "2sigma23-2tau23",
+      "ok": true,
+      "pair": "23",
+      "weight_d_a_squared": "delta1+2tau23",
+      "weight_d_s_squared": "delta1+2sigma23"
+    }
+  ],
+  "weight_system": {
+    "conclusion": "lambda12+lambda13+lambda23 = delta1+delta2+delta3 = m",
+    "equations": [
+      "delta3 + 2*lambda12 = m",
+      "delta2 + 2*lambda13 = m",
+      "delta1 + 2*lambda23 = m",
+      "delta1 + delta2 + delta3 = m",
+      "lambda12 + lambda13 + lambda23 = m"
+    ],
+    "lambda_sum_equation_implied_exactly": true,
+    "rank_with_lambda_sum_equation": 4,
+    "rank_without_lambda_sum_equation": 4,
+    "symbols": [
+      "delta1",
+      "delta2",
+      "delta3",
+      "lambda12",
+      "lambda13",
+      "lambda23",
+      "m"
+    ]
+  }
+}

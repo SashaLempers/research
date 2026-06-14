@@ -1,0 +1,108 @@
+T1 - exact rewrite in (d,s,a) basis
+tag: proved-alg by exact expansion over Q
+arithmetic: Fraction over Q; no floating point
+expand(det_guess - det3) == 0: True
+expand(perm_guess - perm3) == 0: True
+det_guess - det3 sparse remainder:
+[]
+perm_guess - perm3 sparse remainder:
+[]
+common support and sign-different support in (d,s,a):
+{
+  "common_support_same_coefficients": [
+    {
+      "monomial": "d1*d2*d3",
+      "coefficient": "1"
+    },
+    {
+      "monomial": "s12*s13*s23",
+      "coefficient": "1/4"
+    },
+    {
+      "monomial": "s12*a13*a23",
+      "coefficient": "-1/4"
+    },
+    {
+      "monomial": "a12*s13*a23",
+      "coefficient": "1/4"
+    },
+    {
+      "monomial": "a12*a13*s23",
+      "coefficient": "-1/4"
+    }
+  ],
+  "support_with_opposite_signs_listed_as_det_coefficients": [
+    {
+      "monomial": "d1*s23^2",
+      "coefficient": "-1/4"
+    },
+    {
+      "monomial": "d2*s13^2",
+      "coefficient": "-1/4"
+    },
+    {
+      "monomial": "d3*s12^2",
+      "coefficient": "-1/4"
+    },
+    {
+      "monomial": "d1*a23^2",
+      "coefficient": "1/4"
+    },
+    {
+      "monomial": "d2*a13^2",
+      "coefficient": "1/4"
+    },
+    {
+      "monomial": "d3*a12^2",
+      "coefficient": "1/4"
+    }
+  ],
+  "det3_plus_perm3": [
+    {
+      "monomial": "d1*d2*d3",
+      "coefficient": "2"
+    },
+    {
+      "monomial": "s12*s13*s23",
+      "coefficient": "1/2"
+    },
+    {
+      "monomial": "s12*a13*a23",
+      "coefficient": "-1/2"
+    },
+    {
+      "monomial": "a12*s13*a23",
+      "coefficient": "1/2"
+    },
+    {
+      "monomial": "a12*a13*s23",
+      "coefficient": "-1/2"
+    }
+  ],
+  "det3_minus_perm3": [
+    {
+      "monomial": "d1*s23^2",
+      "coefficient": "-1/2"
+    },
+    {
+      "monomial": "d2*s13^2",
+      "coefficient": "-1/2"
+    },
+    {
+      "monomial": "d3*s12^2",
+      "coefficient": "-1/2"
+    },
+    {
+      "monomial": "d1*a23^2",
+      "coefficient": "1/2"
+    },
+    {
+      "monomial": "d2*a13^2",
+      "coefficient": "1/2"
+    },
+    {
+      "monomial": "d3*a12^2",
+      "coefficient": "1/2"
+    }
+  ]
+}
